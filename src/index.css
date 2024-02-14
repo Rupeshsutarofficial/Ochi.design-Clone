@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'Founders Grotesk';
+    src: url('./assets/FoundersGrotesk-Semibold.ttf') format('truetype');
+    font-weight: 600; /* Adjust font-weight accordingly */
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'icomoon';
+    src: url('./assets/icomoon.ttf') format('truetype');
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'NeueMontreal-Regular';
+    src: url('./assets/NeueMontreal-Regular.ttf') format('truetype');
+    font-weight: 600; /* Adjust font-weight accordingly */
+    font-style: normal;
+  }
+
+body::-webkit-scrollbar{
+  display: none;
+}

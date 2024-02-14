@@ -1,0 +1,52 @@
+.buttonAnimation h4 {
+    position: relative;
+    padding: 4px 20px;
+    border: 2px solid black;
+    border-radius: 50px;
+    font-weight: 500;
+    color: #0b0500;
+    transition: all ease 0.3s;
+    font-size: 18px;
+    overflow: hidden;
+    cursor: pointer;
+    -webkit-transition: all ease 0.3s;
+    -moz-transition: all ease 0.3s;
+    -ms-transition: all ease 0.3s;
+    -o-transition: all ease 0.3s;
+}
+  .buttonAnimation h4::after {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    left: 0;
+    bottom: -100%;
+    border-radius: 50%;
+    transition: all ease 0.3s;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    -webkit-transition: all ease 0.1s;
+    -moz-transition: all ease 0.1s;
+    -ms-transition: all ease 0.1s;
+    -o-transition: all ease 0.1s;
+}
+  .buttonAnimation h4:hover::after {
+    bottom: 0;
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+  }
+  .buttonAnimation h4 a {
+    text-decoration: none;
+    color: #0b0500;
+    position: relative;
+    z-index: 9;
+  }
+  .buttonAnimation h4:hover a {
+    color: #fff;
+  }
